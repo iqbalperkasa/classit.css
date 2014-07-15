@@ -1,0 +1,153 @@
+/* http://git.io/classit, MIT License */
+
+/* Float */
+.left,
+.floatLeft { float: left; }
+.right,
+.floatRight { float: right; }
+.floatNone { float: none; }
+
+/* Clear */
+.clear { clear: both; } /* Fix messed floats */
+.clearNone { clear: none; }
+
+/* Cursor */
+.curDefault { cursor: default; }
+.curPointer { cursor: pointer; }
+.curText { cursor: text; }
+.curWait { cursor: wait; }
+
+/* Text Align  */
+.textLeft { text-align: left; }
+.textRight { text-align: right; }
+.textCenter { text-align: center; }
+
+/* Font and Text Style */
+.fontNormal,
+.normal { font-weight: normal; font-style: normal; text-decoration: none; font-variant: normal; }
+.bold { font-weight: bold; }
+.noBold { font-weight: normal; }
+.italic { font-style: italic; }
+.noItalic { font-style: normal; }
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.strike { text-decoration: line-through; }
+.noDecoration { text-decoration: none; }
+.noFontVariant,
+.fontVariantNormal { font-variant: normal; }
+.smallCaps,
+.fontVariantSmallCaps { font-variant: small-caps; }
+
+/* Text Transform */
+.transformNone { text-transform: none; }
+.capitalize,
+.transformCapitalize { text-transform: capitalize; }
+.uppercase,
+.transformUppercase { text-transform: uppercase; }
+.lowercase,
+.transformLowercase { text-transform: lowercase; }
+
+/* List */
+.listOutside { list-style-position: outside;  }
+.listInside { list-style-position: inside; }
+.listNone { list-style-type: none; }
+.listDecimal { list-style-type: decimal; }
+.listDisc { list-style-type: disc; }
+.listDecimalLeadingZero { list-style-type: decimal-leading-zero; }
+.listLowerAlpha { list-style-type: lower-alpha; }
+.listLowerRoman { list-style-type: lower-roman; }
+.listUpperAlpha { list-style-type: upper-alpha; }
+.listUpperRoman { list-style-type: upper-roman; }
+
+
+/* Display and Visibility */
+.hide,
+.none { display: none; }
+.block { display: block; }
+.inline { display: inline; }
+.inlineBlock { display: inline-block; }
+.visible { visibility: visible; }
+.hidden { visibility: hidden; }
+
+/* Background */
+.noBg,
+.bgNone { background: none; }
+.bgTransparent { background: transparent; }
+.bgColorTransparent { background-color: transparent; }
+.bgCover { background-size: cover; }
+.bgRepeat { background-repeat: repeat; }
+.bgNoRepeat { background-repeat: no-repeat; }
+.bgRepeatX { background-repeat: repeat-x; }
+.bgRepeatY { background-repeat: repeat-y; }
+.bgScroll { background-attachment: scroll; }
+.bgFixed { background-attachment: fixed; }
+.noBgImage,
+.bgImageNone { background-image: none; }
+
+/* Border */
+.noBorder,
+.borderNone { border: none !important; }
+.noBorderTop,
+.borderTopNone { border-top: none !important; }
+.noBorderRight,
+.borderRightNone { border-right: none !important; }
+.noBorderBottom,
+.borderBottomNone { border-bottom: none !important; }
+.noBorderLeft,
+.borderLeftNone{ border-left: none !important; }
+.borderColorTransparent { border-color: transparent; }
+.borderDotted { border-style: dotted; }
+.borderDashed { border-style: dashed; }
+.borderSolid { border-style: solid; }
+
+/* Position */
+.static,
+.positionStatic, { position: static; }
+.absolute,
+.positionAbsolute { position: absolute; }
+.fixed,
+.positionFixed { position: fixed; }
+.relative,
+.positionRelative { position: relative; }
+
+/* Set Margin to 0 */
+.noMargin { margin: 0 !important; }
+.noMarginTop { margin-top: 0 !important; }
+.noMarginRight { margin-right: 0 !important; }
+.noMarginBottom { margin-bottom: 0 !important; }
+.noMarginLeft { margin-left: 0 !important; }
+
+/* Set Padding to 0 */
+.noPadding { padding: 0 !important; }
+.noPaddingTop { padding-top: 0 !important; }
+.noPaddingRight { padding-right: 0 !important; }
+.noPaddingBottom { padding-bottom: 0 !important; }
+.noPaddingLeft { padding-left: 0 !important; }
+
+/* Set Absolute Position to 0 */
+.noTop { top: 0; }
+.noRight { right: 0; }
+.noBottom { bottom: 0; }
+.noLeft { left: 0; }
+.noposTop.noposBottom { top: inherit; bottom: inherit; } /* To avoid using double class */
+.noposRight.noposLeft { right: inherit; left: inherit; } /* To avoid using double class */
+
+/* Font Size */
+.smaller { font-size: 80%; }
+.larger { font-size: 120%; }
+.smaller.larger { font-size: 100%; } /* To avoid using double class */
+
+/* Make Square Image / Div Smoother */
+.smooth,
+.smooth img,
+img.smooth { border-radius: 3px; }
+
+/* Make Image / Div Circle or Ellipse
+** Your element dimension have to less than equal to 9999px.
+*/
+.circle,
+.circle img,
+img.circle,
+.ellipse,
+.ellipse img,
+img.ellipse { border-radius: 9999px; }

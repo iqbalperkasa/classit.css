@@ -1,0 +1,12 @@
+{
+    "name": "classit.css",
+    "version": "0.1.0",
+    "description": "Inline style made easy.",
+    "author": {
+        "name": "Iqbal Perkasa",
+        "email": "hi@iqbalp.com",
+        "url": "http://iqbalp.com"
+    },
+    "main": "classit.min.css",
+    "license": "MIT"
+}
